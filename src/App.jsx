@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { Nombre } from './componentes/atomos/nombre'
 import { Boton } from './componentes/atomos/boton'
 import { Descripcion } from './componentes/atomos/descripcion'
+import { Perfil } from './componentes/atomos/perfil'
+import { Boton2 } from './componentes/atomos/boton2'
 import './App.css'
 
 function App() {
@@ -9,15 +11,22 @@ function App() {
 
   return (
     <>
-      <div>
+      
+            <Perfil></Perfil>
+      
+      
             <Nombre></Nombre>
-      </div>
-      <div>
+      
+    
             <Boton></Boton>
-      </div>
-      <div>
+      
+      
+            <Boton2></Boton2>
+      
+    
             <Descripcion></Descripcion>
-      </div>
+      
+      
 
     </>
   )

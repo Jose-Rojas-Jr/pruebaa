@@ -1,11 +1,11 @@
 import React from 'react'
-
+import '../styles/botone.css'
 export const Boton = () => {
   return (
-    <div>
-        <button>
+    
+        <button className='boton'>
             Folower
         </button>
-    </div>
+    
   )
 }
